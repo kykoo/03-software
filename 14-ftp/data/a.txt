@@ -1,0 +1,17 @@
+# Default values ​​for all accounts.
+defaults
+with tuna
+tls on
+tls_trust_file /etc/ssl/certs/ca-certificates.crt
+logfile ~ / .msmtp.log
+
+# Example for a Gmail account
+account gmail
+host smtp.gmail.com
+port 587
+from username@gmail.com
+user username
+password plain-text-password
+
+# Set the default account
+account default: gmail

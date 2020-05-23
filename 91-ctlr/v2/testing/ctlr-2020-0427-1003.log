@@ -1,0 +1,1118 @@
+2020-04-27 09:03:31 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:31 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 157,712/2,561,344,6.2% in use, stack in use=880
+2020-04-27 09:03:31 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:32 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:32 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 158,656/2,561,344,6.2% in use, stack in use=880
+2020-04-27 09:03:32 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:33 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:33 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 159,664/2,561,344,6.2% in use, stack in use=880
+2020-04-27 09:03:33 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:34 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:34 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 160,512/2,561,344,6.3% in use, stack in use=880
+2020-04-27 09:03:35 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:36 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:36 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 161,456/2,561,344,6.3% in use, stack in use=880
+2020-04-27 09:03:36 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:37 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:37 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 162,400/2,561,344,6.3% in use, stack in use=880
+2020-04-27 09:03:37 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:38 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:38 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 163,408/2,561,344,6.4% in use, stack in use=880
+2020-04-27 09:03:38 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:39 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:39 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 164,256/2,561,344,6.4% in use, stack in use=880
+2020-04-27 09:03:39 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:40 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:40 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 165,200/2,561,344,6.4% in use, stack in use=880
+2020-04-27 09:03:40 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:41 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:03:41 -  INFO - socket_svr : handling client ...
+2020-04-27 09:03:41 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:03:41 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:03:41 - DEBUG - socket_svr : client_handling: 2. Received data=b'get,state;get,time;set,state3,1'
+2020-04-27 09:03:41 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'2;1587978221;done;'.
+2020-04-27 09:03:41 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:03:41 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:03:41 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:03:41 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:03:41 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,1],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 168,624/2,561,344,6.6% in use, stack in use=880
+2020-04-27 09:03:41 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:42 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:03:42 -  INFO - socket_svr : handling client ...
+2020-04-27 09:03:42 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:03:42 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:03:42 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state3,2'
+2020-04-27 09:03:43 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:03:43 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:03:43 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:03:43 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:03:43 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:03:43 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 171,552/2,561,344,6.7% in use, stack in use=880
+2020-04-27 09:03:43 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:44 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:44 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 172,560/2,561,344,6.7% in use, stack in use=880
+2020-04-27 09:03:44 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:45 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:45 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 173,408/2,561,344,6.8% in use, stack in use=880
+2020-04-27 09:03:45 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:46 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:46 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 174,352/2,561,344,6.8% in use, stack in use=880
+2020-04-27 09:03:46 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:47 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:47 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 175,296/2,561,344,6.8% in use, stack in use=880
+2020-04-27 09:03:47 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:48 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:48 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 176,304/2,561,344,6.9% in use, stack in use=880
+2020-04-27 09:03:49 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:50 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:50 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 177,152/2,561,344,6.9% in use, stack in use=880
+2020-04-27 09:03:50 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:50 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:03:50 -  INFO - socket_svr : handling client ...
+2020-04-27 09:03:50 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:03:50 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:03:50 - DEBUG - socket_svr : client_handling: 2. Received data=b'get,state;get,time;set,state1,1'
+2020-04-27 09:03:50 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'2;1587978230;done;'.
+2020-04-27 09:03:50 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:03:50 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:03:50 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:03:50 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:03:50 -  INFO - __main__ : state=2,setupMode=1,acc_state=[1,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 180,640/2,561,344,7.1% in use, stack in use=880
+2020-04-27 09:03:50 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:51 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:51 -  INFO - __main__ : state=2,setupMode=1,acc_state=[1,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 181,488/2,561,344,7.1% in use, stack in use=880
+2020-04-27 09:03:51 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:52 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:03:52 -  INFO - socket_svr : handling client ...
+2020-04-27 09:03:52 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:03:52 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:03:52 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state1,2'
+2020-04-27 09:03:52 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:03:52 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:03:52 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:03:52 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:03:52 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:03:52 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 184,416/2,561,344,7.2% in use, stack in use=880
+2020-04-27 09:03:52 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:53 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:53 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 185,424/2,561,344,7.2% in use, stack in use=880
+2020-04-27 09:03:53 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:54 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:54 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 186,272/2,561,344,7.3% in use, stack in use=880
+2020-04-27 09:03:54 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:55 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:55 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 187,216/2,561,344,7.3% in use, stack in use=880
+2020-04-27 09:03:56 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:57 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:57 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 188,160/2,561,344,7.3% in use, stack in use=880
+2020-04-27 09:03:57 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:58 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:58 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 189,168/2,561,344,7.4% in use, stack in use=880
+2020-04-27 09:03:58 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:03:59 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:03:59 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 190,016/2,561,344,7.4% in use, stack in use=880
+2020-04-27 09:03:59 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:00 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:00 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 190,960/2,561,344,7.5% in use, stack in use=880
+2020-04-27 09:04:00 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:01 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:01 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 191,904/2,561,344,7.5% in use, stack in use=880
+2020-04-27 09:04:01 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:02 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:02 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 192,912/2,561,344,7.5% in use, stack in use=880
+2020-04-27 09:04:02 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:03 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:03 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 193,760/2,561,344,7.6% in use, stack in use=880
+2020-04-27 09:04:04 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:05 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:05 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 194,704/2,561,344,7.6% in use, stack in use=880
+2020-04-27 09:04:05 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:06 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:06 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 195,648/2,561,344,7.6% in use, stack in use=880
+2020-04-27 09:04:06 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:07 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:07 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 196,656/2,561,344,7.7% in use, stack in use=880
+2020-04-27 09:04:07 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:08 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:04:08 -  INFO - socket_svr : handling client ...
+2020-04-27 09:04:08 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:04:08 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:04:08 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state3,3'
+2020-04-27 09:04:08 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:04:08 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:04:08 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:04:08 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:04:08 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:04:08 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 199,488/2,561,344,7.8% in use, stack in use=880
+2020-04-27 09:04:08 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:09 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:09 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 200,432/2,561,344,7.8% in use, stack in use=880
+2020-04-27 09:04:09 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:10 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:10 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 201,376/2,561,344,7.9% in use, stack in use=880
+2020-04-27 09:04:10 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:12 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:12 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 202,384/2,561,344,7.9% in use, stack in use=880
+2020-04-27 09:04:12 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:12 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:04:12 -  INFO - socket_svr : handling client ...
+2020-04-27 09:04:12 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:04:12 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:04:12 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state1,3'
+2020-04-27 09:04:12 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:04:12 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:04:12 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:04:12 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:04:12 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:04:12 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 205,216/2,561,344,8.0% in use, stack in use=880
+2020-04-27 09:04:12 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:13 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:13 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 206,224/2,561,344,8.1% in use, stack in use=880
+2020-04-27 09:04:13 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:14 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:14 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 207,072/2,561,344,8.1% in use, stack in use=880
+2020-04-27 09:04:14 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:15 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:15 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 208,016/2,561,344,8.1% in use, stack in use=880
+2020-04-27 09:04:16 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:17 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:17 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 208,960/2,561,344,8.2% in use, stack in use=880
+2020-04-27 09:04:17 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:18 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:18 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 209,968/2,561,344,8.2% in use, stack in use=880
+2020-04-27 09:04:18 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:19 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:19 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 210,816/2,561,344,8.2% in use, stack in use=880
+2020-04-27 09:04:19 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:20 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:20 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 211,760/2,561,344,8.3% in use, stack in use=880
+2020-04-27 09:04:20 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:21 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:21 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 212,704/2,561,344,8.3% in use, stack in use=880
+2020-04-27 09:04:21 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:22 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:22 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 213,712/2,561,344,8.3% in use, stack in use=880
+2020-04-27 09:04:22 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:23 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:23 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 214,560/2,561,344,8.4% in use, stack in use=880
+2020-04-27 09:04:24 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:25 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:25 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 215,504/2,561,344,8.4% in use, stack in use=880
+2020-04-27 09:04:25 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:26 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:26 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 216,448/2,561,344,8.5% in use, stack in use=880
+2020-04-27 09:04:26 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:27 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:27 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 217,456/2,561,344,8.5% in use, stack in use=880
+2020-04-27 09:04:27 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:28 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:28 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 218,304/2,561,344,8.5% in use, stack in use=880
+2020-04-27 09:04:28 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:29 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:29 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 219,248/2,561,344,8.6% in use, stack in use=880
+2020-04-27 09:04:29 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:30 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:30 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 220,192/2,561,344,8.6% in use, stack in use=880
+2020-04-27 09:04:31 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:32 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:32 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 221,200/2,561,344,8.6% in use, stack in use=880
+2020-04-27 09:04:32 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:33 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:33 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 222,048/2,561,344,8.7% in use, stack in use=880
+2020-04-27 09:04:33 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:34 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:34 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 222,992/2,561,344,8.7% in use, stack in use=880
+2020-04-27 09:04:34 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:35 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:35 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 223,936/2,561,344,8.7% in use, stack in use=880
+2020-04-27 09:04:35 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:36 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:36 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 224,944/2,561,344,8.8% in use, stack in use=880
+2020-04-27 09:04:36 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:37 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:37 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 225,792/2,561,344,8.8% in use, stack in use=880
+2020-04-27 09:04:37 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:38 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:38 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 226,736/2,561,344,8.9% in use, stack in use=880
+2020-04-27 09:04:39 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:40 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:40 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 227,680/2,561,344,8.9% in use, stack in use=880
+2020-04-27 09:04:40 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:41 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:41 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 228,688/2,561,344,8.9% in use, stack in use=880
+2020-04-27 09:04:41 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:42 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:42 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 229,536/2,561,344,9.0% in use, stack in use=880
+2020-04-27 09:04:42 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:43 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:43 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 230,480/2,561,344,9.0% in use, stack in use=880
+2020-04-27 09:04:43 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:44 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:04:44 -  INFO - socket_svr : handling client ...
+2020-04-27 09:04:44 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:04:44 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:04:44 - DEBUG - socket_svr : client_handling: 2. Received data=b'get,state;get,time;set,state1,1'
+2020-04-27 09:04:44 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'2;1587978284;done;'.
+2020-04-27 09:04:44 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:04:44 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:04:44 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:04:44 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:04:45 -  INFO - __main__ : state=2,setupMode=1,acc_state=[1,0,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 233,904/2,561,344,9.1% in use, stack in use=880
+2020-04-27 09:04:45 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:45 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:04:45 -  INFO - socket_svr : handling client ...
+2020-04-27 09:04:45 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:04:45 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:04:45 - DEBUG - socket_svr : client_handling: 2. Received data=b'get,state;get,time;set,state3,1'
+2020-04-27 09:04:45 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'2;1587978285;done;'.
+2020-04-27 09:04:45 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:04:45 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:04:45 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:04:45 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:04:45 -  INFO - __main__ : state=2,setupMode=1,acc_state=[1,0,1],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 237,296/2,561,344,9.3% in use, stack in use=880
+2020-04-27 09:04:45 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:46 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:04:46 -  INFO - socket_svr : handling client ...
+2020-04-27 09:04:46 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:04:46 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:04:46 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state3,2'
+2020-04-27 09:04:46 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:04:46 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:04:46 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:04:46 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:04:46 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:04:46 -  INFO - __main__ : state=2,setupMode=1,acc_state=[1,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 240,224/2,561,344,9.4% in use, stack in use=880
+2020-04-27 09:04:46 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:46 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:04:46 -  INFO - socket_svr : handling client ...
+2020-04-27 09:04:46 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:04:46 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:04:47 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state1,2'
+2020-04-27 09:04:47 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:04:47 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:04:47 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:04:47 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:04:47 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:04:47 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 243,216/2,561,344,9.5% in use, stack in use=880
+2020-04-27 09:04:47 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:48 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:48 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,0,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 244,064/2,561,344,9.5% in use, stack in use=880
+2020-04-27 09:04:48 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:48 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:04:48 -  INFO - socket_svr : handling client ...
+2020-04-27 09:04:48 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:04:48 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:04:48 - DEBUG - socket_svr : client_handling: 2. Received data=b'get,state;get,time;set,state2,1'
+2020-04-27 09:04:48 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'2;1587978288;done;'.
+2020-04-27 09:04:48 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:04:48 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:04:48 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:04:48 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:04:48 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,1,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 247,552/2,561,344,9.7% in use, stack in use=880
+2020-04-27 09:04:49 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:50 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:04:50 -  INFO - socket_svr : handling client ...
+2020-04-27 09:04:50 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:04:50 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:04:50 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state2,2'
+2020-04-27 09:04:50 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:04:50 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:04:50 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:04:50 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:04:50 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:04:50 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 250,480/2,561,344,9.8% in use, stack in use=880
+2020-04-27 09:04:50 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:51 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:51 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 251,328/2,561,344,9.8% in use, stack in use=880
+2020-04-27 09:04:51 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:52 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:52 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 252,272/2,561,344,9.8% in use, stack in use=880
+2020-04-27 09:04:52 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:53 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:53 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 253,216/2,561,344,9.9% in use, stack in use=880
+2020-04-27 09:04:53 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:54 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:54 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 254,224/2,561,344,9.9% in use, stack in use=880
+2020-04-27 09:04:55 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:56 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:56 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 255,072/2,561,344,10.0% in use, stack in use=880
+2020-04-27 09:04:56 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:57 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:57 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 256,016/2,561,344,10.0% in use, stack in use=880
+2020-04-27 09:04:57 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:58 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:58 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 256,960/2,561,344,10.0% in use, stack in use=880
+2020-04-27 09:04:58 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:04:59 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:04:59 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 257,968/2,561,344,10.1% in use, stack in use=880
+2020-04-27 09:04:59 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:00 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:00 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 258,816/2,561,344,10.1% in use, stack in use=880
+2020-04-27 09:05:00 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:01 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:01 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 259,760/2,561,344,10.1% in use, stack in use=880
+2020-04-27 09:05:01 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:03 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:03 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 260,704/2,561,344,10.2% in use, stack in use=880
+2020-04-27 09:05:03 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:04 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:04 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 261,712/2,561,344,10.2% in use, stack in use=880
+2020-04-27 09:05:04 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:05 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:05 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 262,560/2,561,344,10.3% in use, stack in use=880
+2020-04-27 09:05:05 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:06 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:06 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 263,504/2,561,344,10.3% in use, stack in use=880
+2020-04-27 09:05:06 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:07 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:07 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 264,448/2,561,344,10.3% in use, stack in use=880
+2020-04-27 09:05:07 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:07 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:05:07 -  INFO - socket_svr : handling client ...
+2020-04-27 09:05:07 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:05:07 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:05:08 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state3,3'
+2020-04-27 09:05:08 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:05:08 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:05:08 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:05:08 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:05:08 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:05:08 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 267,344/2,561,344,10.4% in use, stack in use=880
+2020-04-27 09:05:08 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:09 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:05:09 -  INFO - socket_svr : handling client ...
+2020-04-27 09:05:09 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:05:09 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:05:09 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state2,3'
+2020-04-27 09:05:09 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:05:09 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:05:09 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:05:09 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:05:09 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:05:09 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 270,272/2,561,344,10.6% in use, stack in use=880
+2020-04-27 09:05:09 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:10 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:10 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 271,216/2,561,344,10.6% in use, stack in use=880
+2020-04-27 09:05:10 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:11 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:11 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 272,224/2,561,344,10.6% in use, stack in use=880
+2020-04-27 09:05:11 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:12 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:12 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 273,072/2,561,344,10.7% in use, stack in use=880
+2020-04-27 09:05:12 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:13 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:13 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 274,016/2,561,344,10.7% in use, stack in use=880
+2020-04-27 09:05:14 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:14 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:05:14 -  INFO - socket_svr : handling client ...
+2020-04-27 09:05:14 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:05:16 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:05:17 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state1,3'
+2020-04-27 09:05:17 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:05:17 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:05:17 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:05:17 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:05:17 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:05:17 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 276,976/2,561,344,10.8% in use, stack in use=880
+2020-04-27 09:05:17 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:18 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:18 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 277,920/2,561,344,10.9% in use, stack in use=880
+2020-04-27 09:05:18 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:19 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:19 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 278,928/2,561,344,10.9% in use, stack in use=880
+2020-04-27 09:05:19 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:20 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:20 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 279,776/2,561,344,10.9% in use, stack in use=880
+2020-04-27 09:05:20 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:21 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:21 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 280,720/2,561,344,11.0% in use, stack in use=880
+2020-04-27 09:05:21 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:22 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:22 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 281,664/2,561,344,11.0% in use, stack in use=880
+2020-04-27 09:05:23 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:24 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:24 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 282,672/2,561,344,11.0% in use, stack in use=880
+2020-04-27 09:05:24 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:25 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:25 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 283,520/2,561,344,11.1% in use, stack in use=880
+2020-04-27 09:05:25 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:26 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:26 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 284,464/2,561,344,11.1% in use, stack in use=880
+2020-04-27 09:05:26 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:27 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:27 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 285,408/2,561,344,11.1% in use, stack in use=880
+2020-04-27 09:05:27 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:28 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:28 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 286,416/2,561,344,11.2% in use, stack in use=880
+2020-04-27 09:05:28 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:29 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:29 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 287,264/2,561,344,11.2% in use, stack in use=880
+2020-04-27 09:05:29 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:30 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:31 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 288,208/2,561,344,11.3% in use, stack in use=880
+2020-04-27 09:05:31 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:32 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:32 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 289,152/2,561,344,11.3% in use, stack in use=880
+2020-04-27 09:05:32 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:33 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:33 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 290,160/2,561,344,11.3% in use, stack in use=880
+2020-04-27 09:05:33 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:34 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:34 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 291,008/2,561,344,11.4% in use, stack in use=880
+2020-04-27 09:05:34 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:35 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:35 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 291,952/2,561,344,11.4% in use, stack in use=880
+2020-04-27 09:05:35 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:36 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:36 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 292,896/2,561,344,11.4% in use, stack in use=880
+2020-04-27 09:05:36 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:37 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:37 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 293,904/2,561,344,11.5% in use, stack in use=880
+2020-04-27 09:05:38 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:39 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:39 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 294,752/2,561,344,11.5% in use, stack in use=880
+2020-04-27 09:05:39 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:40 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:40 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 295,696/2,561,344,11.5% in use, stack in use=880
+2020-04-27 09:05:40 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:41 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:41 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 296,640/2,561,344,11.6% in use, stack in use=880
+2020-04-27 09:05:41 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:42 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:42 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 297,648/2,561,344,11.6% in use, stack in use=880
+2020-04-27 09:05:42 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:43 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:43 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 298,496/2,561,344,11.7% in use, stack in use=880
+2020-04-27 09:05:43 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:44 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:44 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 299,440/2,561,344,11.7% in use, stack in use=880
+2020-04-27 09:05:44 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:45 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:45 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 300,384/2,561,344,11.7% in use, stack in use=880
+2020-04-27 09:05:46 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:47 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:47 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 301,392/2,561,344,11.8% in use, stack in use=880
+2020-04-27 09:05:47 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:48 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:48 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 302,240/2,561,344,11.8% in use, stack in use=880
+2020-04-27 09:05:48 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:49 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:49 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 303,184/2,561,344,11.8% in use, stack in use=880
+2020-04-27 09:05:49 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:50 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:50 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 304,128/2,561,344,11.9% in use, stack in use=880
+2020-04-27 09:05:50 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:50 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:05:50 -  INFO - socket_svr : handling client ...
+2020-04-27 09:05:50 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:05:50 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:05:50 - DEBUG - socket_svr : client_handling: 2. Received data=b'get,state;get,time;set,state1,1'
+2020-04-27 09:05:51 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'2;1587978350;done;'.
+2020-04-27 09:05:51 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:05:51 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:05:51 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:05:51 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:05:51 -  INFO - __main__ : state=2,setupMode=1,acc_state=[1,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 307,520/2,561,344,12.0% in use, stack in use=880
+2020-04-27 09:05:51 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:52 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:52 -  INFO - __main__ : state=2,setupMode=1,acc_state=[1,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 308,464/2,561,344,12.0% in use, stack in use=880
+2020-04-27 09:05:52 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:52 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:05:52 -  INFO - socket_svr : handling client ...
+2020-04-27 09:05:52 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:05:52 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:05:52 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state1,2'
+2020-04-27 09:05:52 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:05:52 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:05:52 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:05:53 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:05:53 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:05:53 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 311,456/2,561,344,12.2% in use, stack in use=880
+2020-04-27 09:05:53 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:54 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:54 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 312,304/2,561,344,12.2% in use, stack in use=880
+2020-04-27 09:05:54 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:55 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:55 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 313,248/2,561,344,12.2% in use, stack in use=880
+2020-04-27 09:05:55 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:56 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:05:56 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 314,192/2,561,344,12.3% in use, stack in use=880
+2020-04-27 09:05:56 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:57 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:05:57 -  INFO - socket_svr : handling client ...
+2020-04-27 09:05:57 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:05:57 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:05:57 - DEBUG - socket_svr : client_handling: 2. Received data=b'get,state;get,time;set,state2,1'
+2020-04-27 09:05:57 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'2;1587978357;done;'.
+2020-04-27 09:05:57 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:05:57 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:05:57 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:05:57 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:05:57 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,1,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 317,680/2,561,344,12.4% in use, stack in use=880
+2020-04-27 09:05:58 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:58 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:05:58 -  INFO - socket_svr : handling client ...
+2020-04-27 09:05:58 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:05:58 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:05:58 - DEBUG - socket_svr : client_handling: 2. Received data=b'get,state;get,time;set,state3,1'
+2020-04-27 09:05:58 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'2;1587978358;done;'.
+2020-04-27 09:05:58 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:05:58 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:05:58 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:05:58 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:05:58 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,1,1],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 321,008/2,561,344,12.5% in use, stack in use=880
+2020-04-27 09:05:58 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:58 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:05:58 -  INFO - socket_svr : handling client ...
+2020-04-27 09:05:58 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:05:58 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:05:59 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state2,2'
+2020-04-27 09:05:59 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:05:59 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:05:59 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:05:59 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:05:59 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:05:59 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,1],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 324,000/2,561,344,12.6% in use, stack in use=880
+2020-04-27 09:05:59 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:05:59 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:05:59 -  INFO - socket_svr : handling client ...
+2020-04-27 09:05:59 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:05:59 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:05:59 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state3,2'
+2020-04-27 09:05:59 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:05:59 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:05:59 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:05:59 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:05:59 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:05:59 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 326,832/2,561,344,12.8% in use, stack in use=880
+2020-04-27 09:05:59 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:00 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:00 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 327,840/2,561,344,12.8% in use, stack in use=880
+2020-04-27 09:06:01 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:02 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:02 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 328,688/2,561,344,12.8% in use, stack in use=880
+2020-04-27 09:06:02 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:03 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:03 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 329,632/2,561,344,12.9% in use, stack in use=880
+2020-04-27 09:06:03 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:04 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:04 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 330,576/2,561,344,12.9% in use, stack in use=880
+2020-04-27 09:06:04 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:05 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:05 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 331,584/2,561,344,12.9% in use, stack in use=880
+2020-04-27 09:06:05 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:06 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:06 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 332,432/2,561,344,13.0% in use, stack in use=880
+2020-04-27 09:06:06 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:07 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:07 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 333,376/2,561,344,13.0% in use, stack in use=880
+2020-04-27 09:06:07 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:08 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:08 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 334,320/2,561,344,13.1% in use, stack in use=880
+2020-04-27 09:06:09 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:10 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:10 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 335,328/2,561,344,13.1% in use, stack in use=880
+2020-04-27 09:06:10 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:10 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:06:10 -  INFO - socket_svr : handling client ...
+2020-04-27 09:06:10 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:06:10 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:06:10 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state3,3'
+2020-04-27 09:06:10 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:06:10 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:06:10 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:06:11 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:06:11 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:06:11 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 338,160/2,561,344,13.2% in use, stack in use=880
+2020-04-27 09:06:11 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:12 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:12 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 339,104/2,561,344,13.2% in use, stack in use=880
+2020-04-27 09:06:12 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:12 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:06:12 -  INFO - socket_svr : handling client ...
+2020-04-27 09:06:12 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:06:12 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:06:13 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state2,3'
+2020-04-27 09:06:13 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:06:13 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:06:13 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:06:13 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:06:13 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:06:13 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 342,096/2,561,344,13.4% in use, stack in use=880
+2020-04-27 09:06:13 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:14 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:14 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 342,944/2,561,344,13.4% in use, stack in use=880
+2020-04-27 09:06:14 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:15 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:15 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 343,888/2,561,344,13.4% in use, stack in use=880
+2020-04-27 09:06:15 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:16 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:16 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 344,832/2,561,344,13.5% in use, stack in use=880
+2020-04-27 09:06:16 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:17 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:17 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 345,840/2,561,344,13.5% in use, stack in use=880
+2020-04-27 09:06:17 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:17 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:06:17 -  INFO - socket_svr : handling client ...
+2020-04-27 09:06:17 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:06:17 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:06:18 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state1,3'
+2020-04-27 09:06:18 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:06:18 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:06:18 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:06:18 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:06:18 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:06:18 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 348,672/2,561,344,13.6% in use, stack in use=880
+2020-04-27 09:06:18 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:19 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:19 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 349,680/2,561,344,13.7% in use, stack in use=880
+2020-04-27 09:06:19 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:20 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:20 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 350,528/2,561,344,13.7% in use, stack in use=880
+2020-04-27 09:06:20 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:21 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:21 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 351,472/2,561,344,13.7% in use, stack in use=880
+2020-04-27 09:06:21 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:22 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:22 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 352,416/2,561,344,13.8% in use, stack in use=880
+2020-04-27 09:06:22 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:23 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:23 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 353,424/2,561,344,13.8% in use, stack in use=880
+2020-04-27 09:06:24 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:25 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:25 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 354,272/2,561,344,13.8% in use, stack in use=880
+2020-04-27 09:06:25 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:26 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:26 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 355,216/2,561,344,13.9% in use, stack in use=880
+2020-04-27 09:06:26 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:27 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:27 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 356,160/2,561,344,13.9% in use, stack in use=880
+2020-04-27 09:06:27 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:28 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:28 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 357,168/2,561,344,13.9% in use, stack in use=880
+2020-04-27 09:06:28 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:29 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:29 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 358,016/2,561,344,14.0% in use, stack in use=880
+2020-04-27 09:06:29 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:30 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:30 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 358,960/2,561,344,14.0% in use, stack in use=880
+2020-04-27 09:06:31 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:32 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:32 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 359,904/2,561,344,14.1% in use, stack in use=880
+2020-04-27 09:06:32 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:33 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:33 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 360,912/2,561,344,14.1% in use, stack in use=880
+2020-04-27 09:06:33 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:34 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:34 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 361,760/2,561,344,14.1% in use, stack in use=880
+2020-04-27 09:06:34 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:35 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:35 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 362,704/2,561,344,14.2% in use, stack in use=880
+2020-04-27 09:06:35 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:36 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:36 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 363,648/2,561,344,14.2% in use, stack in use=880
+2020-04-27 09:06:36 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:37 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:37 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 364,656/2,561,344,14.2% in use, stack in use=880
+2020-04-27 09:06:37 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:38 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:38 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 365,504/2,561,344,14.3% in use, stack in use=880
+2020-04-27 09:06:39 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:40 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:40 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 366,448/2,561,344,14.3% in use, stack in use=880
+2020-04-27 09:06:40 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:41 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:41 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 367,392/2,561,344,14.3% in use, stack in use=880
+2020-04-27 09:06:41 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:42 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:42 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 368,400/2,561,344,14.4% in use, stack in use=880
+2020-04-27 09:06:42 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:43 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:06:43 -  INFO - __main__ : state=2,setupMode=1,acc_state=[3,3,3],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 369,248/2,561,344,14.4% in use, stack in use=880
+2020-04-27 09:06:43 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:06:43 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:06:43 -  INFO - socket_svr : handling client ...
+2020-04-27 09:06:43 -  INFO - socket_svr : client_handling:------------------------
+ets Jun  8 2016 00:22:57
+
+rst:0x7 (TG0WDT_SYS_RESET),boot:0x17 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff8020,len:8
+load:0x3fff8028,len:2140
+ho 0 tail 12 room 4
+load:0x4009fa00,len:19760
+entry 0x400a05bc
+WMAC: 3C71BF87FD34
+Firmware: 1.20.2.rc6
+Pybytes: 1.3.1
+Initialized watchdog for WiFi and LTE connection with timeout 1260000 ms
+WiFi connection established
+Pybytes connected successfully (using the built-in pybytes library)
+Pybytes configuration read from /flash/pybytes_config.json
+micropython/gc loaded===================
+heap alloc = 34,208/2,561,344,1.3% in use, stack in use=880
+machine loaded ===================
+heap alloc = 34,368/2,561,344,1.3% in use, stack in use=880
+SD, Pin, WDT loaded ===================
+heap alloc = 34,592/2,561,344,1.4% in use, stack in use=880
+pycom loaded ===================
+heap alloc = 34,736/2,561,344,1.4% in use, stack in use=880
+sys loaded ===================
+heap alloc = 34,880/2,561,344,1.4% in use, stack in use=880
+all the rest loaded ===================
+heap alloc = 38,928/2,561,344,1.5% in use, stack in use=880
+1970-01-01 00:00:14 - DEBUG - socket_svr : acc_threshold = 1.0
+socket_svr loaded ===================
+heap alloc = 43,488/2,561,344,1.7% in use, stack in use=880
+shmGPSclock loaded ===================
+heap alloc = 74,992/2,561,344,2.9% in use, stack in use=880
+variable defined ===================
+heap alloc = 75,248/2,561,344,2.9% in use, stack in use=880
+1970-01-01 00:00:18 -  INFO - __main__ : ===========================
+1970-01-01 00:00:18 -  INFO - __main__ :  Starting CTLR 
+1970-01-01 00:00:18 -  INFO - __main__ : ===========================
+1970-01-01 00:00:18 - DEBUG - socket_svr : Server Socket Configuration...
+1970-01-01 00:00:18 -  INFO - __main__ : GPS time fixing start...
+1970-01-01 00:00:18 - DEBUG - L76micropyGPS :   0   0 (0, 0, 0) (0, 0, 0)   0
+1970-01-01 00:00:19 - DEBUG - L76micropyGPS :   0   0 (0, 0, 0) (0, 0, 0)   0
+1970-01-01 00:00:19 - DEBUG - L76micropyGPS : $GNRMC,090903.000,A,5044.3267,N,00328.9456,W,0.00,269.20,270420,,,A,V*15
+1970-01-01 00:00:19 - DEBUG - L76micropyGPS :   0   0 (9, 9, 3.0) (27, 4, 20)   0
+1970-01-01 00:00:19 - DEBUG - L76micropyGPS : $GPGGA,090903.000,5044.3267,N,00328.9456,W,1,8,1.64,42.7,M,50.3,M,,*73
+1970-01-01 00:00:19 - DEBUG - L76micropyGPS :   0   0 (9, 9, 3.0) (27, 4, 20)   0
+1970-01-01 00:00:20 - DEBUG - L76micropyGPS :   0   0 (9, 9, 3.0) (27, 4, 20)   0
+1970-01-01 00:00:20 - DEBUG - L76micropyGPS :   0   0 (9, 9, 3.0) (27, 4, 20)   0
+1970-01-01 00:00:20 - DEBUG - L76micropyGPS : $GNRMC,090904.000,A,5044.3266,N,00328.9459,W,0.00,242.13,270420,,,A,V*15
+1970-01-01 00:00:20 - DEBUG - L76micropyGPS : $GPGGA,090904.000,5044.3266,N,00328.9459,W,1,8,1.64,42.7,M,50.3,M,,*7A
+1970-01-01 00:00:20 - DEBUG - L76micropyGPS :   1   8 (9, 9, 4.0) (27, 4, 20) 1.64
+1970-01-01 00:00:20 - DEBUG - shmGPSclock : GPS time fixed. Updating RTC...
+2020-04-27 09:09:05 - DEBUG - shmGPSclock : GPSclock = (2020, 4, 27, 9, 9, 5)
+2020-04-27 09:09:05 -  INFO - __main__ : GPS time fixing done...
+setup() executed ===================
+heap alloc = 110,624/2,561,344,4.3% in use, stack in use=880
+2020-04-27 09:09:05 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:05 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:09:05 -  INFO - socket_svr : handling client ...
+2020-04-27 09:09:05 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:09:05 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:09:05 - DEBUG - socket_svr : client_handling: 2. Received data=b'get,state;get,time;set,state2,1'
+2020-04-27 09:09:05 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'1;1587978545;done;'.
+2020-04-27 09:09:05 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:09:05 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:09:05 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:09:05 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:09:05 -  INFO - __main__ : state=1,setupMode=1,acc_state=[0,1,0],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 114,064/2,561,344,4.5% in use, stack in use=880
+2020-04-27 09:09:05 - DEBUG - __main__ : State Transition to 2 (Setup Mode), turning rpi on...
+2020-04-27 09:09:05 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:06 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:09:06 -  INFO - socket_svr : handling client ...
+2020-04-27 09:09:06 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:09:06 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:09:06 - DEBUG - socket_svr : client_handling: 2. Received data=b'get,state;get,time;set,state3,1'
+2020-04-27 09:09:06 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'2;1587978546;done;'.
+2020-04-27 09:09:06 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:09:06 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:09:06 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:09:06 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:09:06 -  INFO - __main__ : state=2,setupMode=1,acc_state=[0,1,1],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 117,552/2,561,344,4.6% in use, stack in use=880
+2020-04-27 09:09:06 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:06 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:09:06 -  INFO - socket_svr : handling client ...
+2020-04-27 09:09:06 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:09:06 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:09:06 - DEBUG - socket_svr : client_handling: 2. Received data=b'get,state;get,time;set,state1,1'
+2020-04-27 09:09:06 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'2;1587978546;done;'.
+2020-04-27 09:09:06 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:09:06 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:09:06 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:09:06 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:09:06 -  INFO - __main__ : state=2,setupMode=1,acc_state=[1,1,1],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 121,040/2,561,344,4.7% in use, stack in use=880
+2020-04-27 09:09:06 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:06 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:09:06 -  INFO - socket_svr : handling client ...
+2020-04-27 09:09:06 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:09:06 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:09:07 - DEBUG - socket_svr : client_handling: 2. Received data=b'get,state;get,time;set,state2,1'
+2020-04-27 09:09:07 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'2;1587978547;done;'.
+2020-04-27 09:09:07 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:09:07 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:09:07 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:09:07 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:09:07 -  INFO - __main__ : state=2,setupMode=1,acc_state=[1,1,1],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 124,432/2,561,344,4.9% in use, stack in use=880
+2020-04-27 09:09:07 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:07 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:09:07 -  INFO - socket_svr : handling client ...
+2020-04-27 09:09:07 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:09:07 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:09:07 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state3,2'
+2020-04-27 09:09:07 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:09:07 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:09:07 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:09:07 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:09:07 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:09:07 -  INFO - __main__ : state=2,setupMode=1,acc_state=[1,1,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 127,264/2,561,344,5.0% in use, stack in use=880
+2020-04-27 09:09:07 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:08 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:09:08 -  INFO - socket_svr : handling client ...
+2020-04-27 09:09:08 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:09:08 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:09:08 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state2,2'
+2020-04-27 09:09:08 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:09:08 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:09:08 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:09:08 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:09:08 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:09:08 -  INFO - __main__ : state=2,setupMode=1,acc_state=[1,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 130,256/2,561,344,5.1% in use, stack in use=880
+2020-04-27 09:09:08 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:08 -  INFO - socket_svr : Client accpeted...
+2020-04-27 09:09:08 -  INFO - socket_svr : handling client ...
+2020-04-27 09:09:08 -  INFO - socket_svr : client_handling:------------------------
+2020-04-27 09:09:08 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:09:08 - DEBUG - socket_svr : client_handling: 2. Received data=b'set,state1,2'
+2020-04-27 09:09:08 - DEBUG - socket_svr : client_handling: 3. requests served. response=b'done;'.
+2020-04-27 09:09:08 - DEBUG - socket_svr : client_handling: 4. response sent.
+2020-04-27 09:09:08 -  INFO - socket_svr : client_handling: 1. data received.
+2020-04-27 09:09:09 - DEBUG - socket_svr : client_handling: 5. leng(r)=0, socket closed. finished.
+2020-04-27 09:09:09 -  INFO - socket_svr :  handling clinet done.
+2020-04-27 09:09:09 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 133,088/2,561,344,5.2% in use, stack in use=880
+2020-04-27 09:09:09 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:10 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:09:10 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 134,096/2,561,344,5.2% in use, stack in use=880
+2020-04-27 09:09:10 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:11 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:09:11 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 134,944/2,561,344,5.3% in use, stack in use=880
+2020-04-27 09:09:11 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:12 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:09:12 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 135,888/2,561,344,5.3% in use, stack in use=880
+2020-04-27 09:09:12 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:13 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:09:13 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 136,832/2,561,344,5.3% in use, stack in use=880
+2020-04-27 09:09:13 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:14 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:09:14 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 137,840/2,561,344,5.4% in use, stack in use=880
+2020-04-27 09:09:14 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:15 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:09:15 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 138,688/2,561,344,5.4% in use, stack in use=880
+2020-04-27 09:09:16 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:17 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:09:17 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 139,632/2,561,344,5.5% in use, stack in use=880
+2020-04-27 09:09:17 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:18 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:09:18 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 140,576/2,561,344,5.5% in use, stack in use=880
+2020-04-27 09:09:18 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:19 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:09:19 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 141,584/2,561,344,5.5% in use, stack in use=880
+2020-04-27 09:09:19 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:20 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:09:20 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 142,432/2,561,344,5.6% in use, stack in use=880
+2020-04-27 09:09:20 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:21 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:09:21 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 143,376/2,561,344,5.6% in use, stack in use=880
+2020-04-27 09:09:21 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:22 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:09:22 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 144,320/2,561,344,5.6% in use, stack in use=880
+2020-04-27 09:09:23 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:24 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:09:24 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 145,328/2,561,344,5.7% in use, stack in use=880
+2020-04-27 09:09:24 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:25 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:09:25 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 146,176/2,561,344,5.7% in use, stack in use=880
+2020-04-27 09:09:25 -  INFO - socket_svr : Client accepting started...
+2020-04-27 09:09:26 -  INFO - socket_svr : No client access attempts.
+2020-04-27 09:09:26 -  INFO - __main__ : state=2,setupMode=1,acc_state=[2,2,2],acc_rms[0.0,0.0,0.0]mg,rpi_state=0
+heap alloc = 147,120/2,561,344,5.7% in use, stack in use=880
+2020-04-27 09:09:26 -  INFO - socket_svr : Client accepting started...

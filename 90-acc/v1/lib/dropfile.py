@@ -1,0 +1,305 @@
+# A very simple FTP file dropper for WiPy enabled devices
+#
+# Version 1.0 Date 02.01.2016
+# Version 1.1 Date 09.01.2016
+#  - Replaced __ by _ according Perl Style Guidlines
+#  - Return >= 300 status in case _sendfile had an error
+#  - Changed error range from >=400 to >=300 for login issues
+#  - Send QUIT before closing the connection
+#  - Nonfunctional cleanups
+#
+# TO EXECUTE THIS:
+# execfile('dropfile.py')
+# dropfile('192.168.178.2', 21, 'dest_path', 'user', 'passwd', 'any.file')
+#
+# THE RETURN VALUES:
+#    0 Everything went fine.
+#   <0 Something with the sockets (file or FTP) isn't working out
+#   >0 The status value from FTP
+#
+# WARNING:
+# Simplified stuff which may break your code:
+# 1. If FTP server responds with multiple line you're doomed
+# 2. No support of ACCT, if FTP requires account should be easy to fix
+# 3. No Active FTP, I did not manage to generate a new port with the WiPy socket.
+# 4. No REST support.
+# 5. And most important: It's not fully tested
+# YOU'VE BEEN WARNED!
+
+
+import os
+import sys
+import socket
+import logging
+
+
+_TIMEOUT = 60
+_MAXLINE = 8192
+_BLOCKSIZE = 8192
+_CRLF = '\r\n'
+_ENCODING = "latin-1"
+
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
+
+
+def dropfile(host, port, cwd, user, passwd, file):
+    # First try to reach and connect to FTP
+    logger.debug('connecting to ftp...')
+    my_socket, my_file, status = _connect(host, port)
+    logger.debug('connecting to ftp Done.')
+
+    if not my_socket:
+        #COULD NOT REACH FTP
+        logger.debug('connecting to ftp Failed.')
+        return -1
+
+    # Now try to log in
+    logger.debug('Logging in...')
+    status = _login(my_socket, my_file, user, passwd)
+    logger.debug('Logging in Done.')
+    if status >= 300:
+        #COULD NOT LOGIN
+        _close(my_socket, my_file)
+        return status
+
+    logger.debug('Changing remote directory...')
+    if cwd:
+        status = _changedir(my_socket, my_file, cwd)
+        logger.debug('status={}'.format(status))
+        if status != 250:
+            #COULD NOT CHANGE PATH
+            _close(my_socket, my_file)
+            return status
+    logger.debug('Changing remote directory Done.')
+
+    logger.debug('Sending file...')
+    status = _sendfile(my_socket, my_file, file)
+    if status >= 300 or status < 0:
+        #SOMETHING WENT WRONG HERE
+        _close(my_socket, my_file)
+        return status
+    logger.debug('Sending file Done.')
+    return _close(my_socket, my_file)
+
+
+def _connect(host, port):
+    try:
+        res = socket.getaddrinfo(host, port)
+    except:
+        #SOMETHING WRONG WITH THE SERVER OR PARAPETERS
+        return('' ,'' ,-4)
+
+    my_socket = None
+    for sock in res:
+        af, socktype, proto, canonname, sa = sock
+
+        try:
+            my_socket = socket.socket(af, socket.SOCK_STREAM, proto)
+            break
+        except:
+            if my_socket:
+                my_socket.close()
+            continue
+
+    if not my_socket:
+        #NO VALID SOCKET FOUND
+        return('', '', -5)
+
+    my_socket.settimeout(_TIMEOUT)
+    my_socket.connect(sa)
+
+    my_file = my_socket.makefile()
+    response, status = _getresponse(my_file)
+
+    if status < 0 or status >= 400:
+        #SOMETHING WENT WRONG
+        _close(my_socket, my_file)
+        return('', '', status)
+
+    return(my_socket, my_file, status)
+
+
+def _login(my_socket, my_file, user, passwd):
+    resp, status = _sendcmd(my_socket, my_file, 'USER ' + user)
+    logging.debug('{}{}'.format(resp.decode(),status))
+
+    if status == 331:
+        #Password required
+        resp, status = _sendcmd(my_socket, my_file, 'PASS ' + passwd)
+        logging.debug(resp)
+    return status
+
+
+def _changedir(my_socket, my_file, cwd):
+    resp, status = _sendcmd(my_socket, my_file, 'CWD ' + cwd)
+    return status
+
+def _mkdir(my_socket, my_file, dir):
+    resp, status = _sendcmd(my_socket, my_file, 'MKDIR ' + dir)
+    return status
+
+def _sendfile(my_socket, my_file, data_file):
+    logger.debug(' _sendingfile started...')
+    try:
+        fb = open(data_file, 'rb')
+    except Exception as error:
+        #PROBLEMS DURING OPEN SOURCE FILE
+        logger.debug(error)
+        return -8
+    logger.debug(' data file opened.')
+
+    resp, status = _sendcmd(my_socket, my_file, 'TYPE I')
+    # resp, status = _sendcmd(my_socket, my_file, 'TYPE A')
+    logger.debug(' TYPE I sent, response={},status={}'.format(resp,status))
+    if status >=300:
+        #COULD NOT SETUP TYPE
+        return status
+
+    resp, status = _sendcmd(my_socket, my_file, 'PASV')
+    logger.debug(' PASV sent, response={},status={}'.format(resp,status))
+
+    IP, port, status = _parse227(resp)
+    logger.debug(' _parse227 response = {},{},{}'.format(IP,port,status))
+    if status != 0:
+        return status
+
+    res = socket.getaddrinfo(IP, port)
+    logger.debug(' _getaddrinfo {}'.format(res))
+
+    data_socket = None
+    for sock in res:
+        af, socktype, proto, canonname, sa = sock
+        if socktype != socket.SOCK_STREAM:
+            continue
+        try:
+            data_socket = socket.socket(af, socket.SOCK_STREAM, proto)
+            data_socket.settimeout(_TIMEOUT)
+            data_socket.connect(sa)
+        except:
+            data_socket.close()
+
+    if not data_socket:
+        #NO VALID SOCKET FOUND
+        return -7
+
+    logger.debug(' my_socket={}, my_file={}, data_file={}'.format(my_socket,my_file,data_file))
+    data_file = data_file.split('/')[-1]
+    resp, status = _sendcmd(my_socket, my_file, 'STOR ' + data_file)
+    logger.debug(' STOR file sent, response={},{}'.format(resp,status))
+
+    if status >= 300:
+        #SOME PROBLEM?
+        return status
+
+    # Finally transfer the file
+    while 1:
+        buf = fb.read(_BLOCKSIZE)
+        if not buf:
+            break
+        data_socket.sendall(buf)
+    fb.close()
+    data_socket.close()
+
+    resp, status = _getresponse(my_file)
+    return status
+
+
+def _close(my_socket, my_file):
+    resp, status = _sendcmd(my_socket, my_file, 'QUIT')
+    if status >=300:
+        #COULD NOT SETUP TYPE
+        return status
+
+    try:
+        if my_file is not None:
+            my_file.close()
+    finally:
+        if my_socket is not None:
+            my_socket.close()
+    return 0
+
+
+##########################
+# General helper functions
+##########################
+
+def _getresponse(my_file):
+    line, status = _getline(my_file)
+    if status < 0:
+        # PASS ERROR UP
+        return('', status)
+
+    try:
+        status = int(line[0:3])
+    except:
+        status = 0;
+
+    return(line, status )
+
+
+def _getline(my_file):
+    line = my_file.readline(_MAXLINE + 1)
+
+    if not line:
+        #RECEIVED EOF
+        return('', -2)
+    if len(line) > _MAXLINE:
+        #MAXLINE EXCEEDED!
+        return('', -1)
+    if line[-2:] == _CRLF:
+        line = line[:-2]
+    elif line[-1:].decode() in _CRLF:
+        line = line[:-1]
+    return(line, 0)
+
+
+def _sendcmd(my_socket, my_file, cmd):
+    cmd = cmd + _CRLF
+    my_socket.sendall(cmd.encode(_ENCODING))
+    return _getresponse(my_file)
+
+
+def _parse227(resp):
+    # Decode the received string.
+    # Do it manually, save memory by not use import re
+    resp = resp.decode(_ENCODING)
+    resplen = len(resp)
+    startIP = 0
+    while startIP < resplen:
+        if resp[startIP] == '(':
+            break
+        startIP += 1
+
+    startIP += 1
+    endIP = startIP + 1
+    coloncnt = 0
+
+    while endIP < resplen:
+        if resp[endIP] == ',':
+            coloncnt += 1
+            if coloncnt == 4:
+                break
+        endIP += 1
+
+    IP = resp[startIP:endIP]
+    IP = IP.replace(',', '.')
+
+    startPort = endIP + 1
+    pos = startPort
+    while pos < resplen:
+        if resp[pos] == ',':
+            port = int(resp[startPort:pos]) << 8
+            startPort = pos + 1
+            pos += 2
+            continue
+        if resp[pos] == ')':
+            port += int(resp[startPort:pos])
+            break
+        pos += 1
+
+    if pos >= resplen:
+        #MALFORMED RESPONSE
+        return('', 0, -6)
+
+    return(IP, port, 0)
